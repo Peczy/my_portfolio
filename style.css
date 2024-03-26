@@ -416,14 +416,14 @@ nav .fas{
         position: absolute;
         top: 50%;
         transform: translate(0, -50%);
-        font-size: 12px;
+        font-size: 14px;
     }
     .header-text span{
         font-style: italic;
         font-size: 10px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 35px;
     }
     nav .fas{
         display: block;
