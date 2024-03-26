@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b12f651b82.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section id="header">
+    <div class="container index">
+        <nav>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="me">
+                <h3>PORTFOLIO</h3>
+            </div>
+            <ul id="side-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact </a></li>
+                <i class="fas fa-times" onclick="close_menu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="open_menu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> Hello, I am</p>
+            <h1>Etieno Aniekan</h1>
+            <h6>Web Developer, UI/UX Designer and Data Scientist</h6><br>
+            <p>My brand represents a fusion of technical expertise, design finesse, and data-driven innovation.
+                Whether you're seeking to develop a dynamic website, revamp your user interface, or unlock the potential of your data,
+                I am committed to delivering solutions that exceed expectations and propel your digital endeavors to new heights.<br><br>
+                <span>Diverse Skills, Unified Solutions - Crafting Excellence Across Digital Realms!</span></p>
+            <div class="container_below_header_text">
+                <a href="#" class="btn btn3">Download CV</a>
+                <a href="#contact" class="btn btn2">Contact Me</a>
+            </div>
+        </div>
+    </div>
+    <div class="watermark">Portfolio</div>
+</section>
+
+
+<!--About-->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an Aviation Maintenance Engineer, aspiring Data Scientist, Web Developer, and currently, a Computer Science student.
+                    With a strong foundation in Computer Science and hands-on experience in Aviation Maintenance, Data Analysis, and Web Development,
+                    I am adept at tackling complex problems and delivering
+                    high-quality results. My passion for technology, coupled with my attention to detail and commitment to excellence,
+                    makes me a valuable asset to any team</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Dev</span><br>Web App Development</li>
+                        <li><span>Data Analytics</span><br>Building and Deploying Data Models</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-Current</span><br>Web Development at W3schools</li>
+                        <li><span>2022-2023</span><br>Data Scientist at Data Camp</li>
+                        <li><span>2021-2023</span><br>Aircraft Maintenance Engineer at Aero</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-Date</span><br>Baze University</li>
+                        <li><span>2023</span><br>Data Science Certificate from Data Camp</li>
+                        <li><span>2021</span><br>AMEL from Nigerian College of Aviation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="watermark">Portfolio</div>
+</section>
+
+
+
+<!--Services-->
+<section id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front End Development</h2>
+                <p>I specialize in crafting visually appealing and user-friendly interfaces, utilizing HTML, CSS, and JavaScript
+                    to create responsive designs across devices. My expertise extends to modern frameworks like React, Angular,
+                    and Vue.js, integrating interactive elements and intuitive navigation to enhance user engagement, collaborating
+                    closely with clients to align with their vision and business objectives</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Back End Development</h2>
+                <p>In addition to front end development, I build robust server-side applications and APIs, leveraging languages such as Python,
+                    Node.js, and Java, utilizing frameworks like Django, Flask, Express.js, and Spring Boot for rapid development and scalability.
+                    With a focus on security, performance optimization, and scalability, my solutions support evolving business needs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Data Analytics/Model Deployment</h2>
+                <p>My expertise lies in extracting insights from complex datasets through statistical analysis and machine learning techniques.
+                    Using programming languages like Python and R, along with libraries such as Pandas, NumPy, Matplotlib, and scikit-learn,
+                    I develop predictive models, recommendation systems, and data-driven insights to support strategic decision-making.
+                    I work collaboratively with clients to understand their business objectives, delivering actionable insights for
+                    improved performance and innovation</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <div class="watermark">Portfolio</div>
+</section>
+
+
+
+<section id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/projects.jpg">
+                <div class="layer">
+                    <h3>Web Dev Projects</h3>
+                    <p>Some of my best Web Development projects</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/projects.jpg">
+                <div class="layer">
+                    <h3>UI/UX Projects</h3>
+                    <p>Some of my best UI/UX projects</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/projects.jpg">
+                <div class="layer">
+                    <h3>Data Science Projects</h3>
+                    <p>Some of my best Data Science projects</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+    <div class="watermark">Portfolio</div>
+</section>
+
+
+
+<!--Contact-->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Let's chat. Tell me about your Project.</h1>
+                <p>Let's create something together</p>
+                <p><i class="fa-solid fa-paper-plane"></i>etienoaniekan@yahoo.com</p>
+                <p><i class="fa-solid fa-phone"></i>+234 706 746 0776</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input class="field" type="tel" placeholder="Phone Number">
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+        <div class="copyright">
+            <p><a href="">Copyright <i class="fa-regular fa-copyright"></i> 2024</a> by <a href="">Etieno Aniekan</a></p>
+        </div>
+    <div class="watermark">Portfolio</div>
+</section>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("side-menu");
+
+    function open_menu(){
+        sidemenu.style.right = "0";
+    }
+
+    function close_menu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxXmHfMDFiVCKr5Du6Z5BJtX5r5szvEFIGTIv7bYAAIj4DjOp-HnOFWSN7MJI-axOZRPQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
